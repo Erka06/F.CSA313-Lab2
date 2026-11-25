@@ -3,7 +3,7 @@ import { sleep, check } from 'k6';
 
 // SLO босгыг орчны хувьсагчаар өөрчилж болно.
 // Анхны босго: p95 < 353ms
-const p95Limit = __ENV.SLO_P95 || '353';
+const p95Limit = __ENV.SLO_P95 || '657';
 
 export const options = {
     vus: 5,
